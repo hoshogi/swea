@@ -1,6 +1,6 @@
 
 /*
-Title   : 1289 [원재의 메모리 복구하기]
+Title   : 원재의 메모리 복구하기
 Author  : Hoseok Lee
 Date    : 2024/01/29
 https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV19AcoKI9sCFAZN
