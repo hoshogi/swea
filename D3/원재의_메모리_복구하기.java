@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-class Solution {
-    
+public class Solution {
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -31,14 +31,7 @@ class Solution {
 					prev = bits.charAt(j);
 				}
 			}
-			
-			StringBuilder sb = new StringBuilder("#");
-			sb.append(i);
-			sb.append(" ");
-			sb.append(result);
-			sb.append("\n");
-			bw.write(sb.toString());
-			
+			bw.write((new StringBuilder("#")).append(i).append(" ").append(result).append("\n").toString());
 		}
 		bw.flush();
 		bw.close();
